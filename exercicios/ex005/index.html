@@ -8,7 +8,7 @@
         body {
             background: #2f7ad0;
             color: white;
-            font: normal 13pt Arial;
+            font: normal 1.3em Arial;
         }
     </style>
 </head>
@@ -18,15 +18,21 @@
     <p name="paragrafo">Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
     <div class="msg">Clique em mim</div>
     <script>
+
+        // Com querySelector() é possível selecionar de diferentes formas:
+        // Selecionando uma tag
         var titulo = document.querySelector("h1");
         titulo.style.backgroundColor = 'blue';
 
+        // Selecionando com id
         var paragrafo_1 = document.querySelector("#paragrafo");
         paragrafo_1.style.backgroundColor = 'green';
 
+        // Selecionando com name
         var paragrafo_2 = document.querySelector("[name='paragrafo']");
         paragrafo_2.style.backgroundColor = 'black';
 
+        // Selecionando uma class
         var div = document.querySelector(".msg");
         div.style.backgroundColor = 'blueviolet'
     </script>
