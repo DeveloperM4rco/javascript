@@ -1,0 +1,29 @@
+body {
+    background: #1e1eff;
+    font: normal 1em Arial, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+    width: 500px;
+    padding: 15px;
+    box-shadow: 3px 2px 15px #000000bc;
+}
+
+#lista {
+    width: 150px;
+    margin: 25px 0px 0px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
