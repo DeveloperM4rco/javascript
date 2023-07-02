@@ -12,6 +12,7 @@ body {
 .botao {
     padding: 0 15px;
     border: 1px solid;
+    border-radius: 5px;
     color: black;
     background-color: #d3d3d3;
 }
