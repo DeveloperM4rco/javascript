@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao {
+    display: block;
+    width: 165px;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: #d3d3d3;
+}
+
+.botao > p {
+    text-align: center;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #b6b6b6;
+}
